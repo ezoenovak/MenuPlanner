@@ -12,13 +12,10 @@ for day in range(7):
     dinner = random.choice(dinners)
     print(f'{days[day]}:')
     print(f"Breakfast: {breakfast['name']}")
-    print(f"Dinner: {dinner}\n")
-    all_ingredients.extend(breakfast['ingredients'])
+    print(f"Dinner: {dinner['name']}\n")
+    all_ingredients.extend(breakfast['ingredients'] + dinner['ingredients'])
 
 unique_ingredients = list(set(all_ingredients))
 print('Ingredients:')
 for ingredient in unique_ingredients:
     print(f'- {ingredient}')
-
-
-
