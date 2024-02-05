@@ -6,10 +6,16 @@ import calendar
 days = [day.upper() for day in calendar.day_name]
 all_ingredients = []
 
+selected_breakfasts = set()
+selected_dinners = set()
 
 for day in range(7):
-    breakfast = random.choice(breakfasts)
-    dinner = random.choice(dinners)
+    available_breakfasts = [b for b in breakfasts if b['name'] not in selected_breakfasts]
+    breakfast = random.choice(available_breakfasts)
+    selected_breakfasts.add(breakfast['name'])
+    available_dinners = [d for d in dinners if d['name'] not in selected_dinners]
+    dinner = random.choice(available_dinners)
+    selected_dinners.add(dinner['name'])
     print(f'{days[day]}:')
     print(f"Breakfast: {breakfast['name']}")
     print(f"Dinner: {dinner['name']}\n")

@@ -15,7 +15,7 @@ dinners = [
         "ingredients": ['nuggets', 'rice', 'vegetables']
     },
     {
-        "name": "Steamed cabbage with chicken and rice",
+        "name": "Steamed cabbage with chicken and rice", 
         "ingredients": ['chicken breast', 'cabbage', 'rice']
     },
     {
