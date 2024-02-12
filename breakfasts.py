@@ -4,10 +4,6 @@ breakfasts = [
         "ingredients": ['eggs', 'tomatoes']
     },
     {
-        "name": "Syrniki",
-        "ingredients": ['eggs', 'cottage cheese', 'raisins', 'sour cream', 'jam']
-    },
-    {
         "name": "Buckweat with milk",
         "ingredients": ['buckweat', 'milk']
     },
@@ -35,8 +31,23 @@ breakfasts = [
         "name": 'Cereal with milk and fruit',
         "ingredients": ['cereal', 'milk', 'fruit']
     },
+]
+
+weekend_breakfasts = [
+    {
+        "name": "Oladyi (thick pancakes)",
+        "ingredients": ['kefir', 'eggs', 'eggs', 'flour']
+    },
+    {
+        "name": "Crepes",
+        "ingredients": ['flour', 'eggs', 'milk', 'soda']
+    },
     {
         "name": 'Full breakfast (eggs, sausage, mushrooms, tomatoes, potatoes and beans)',
         "ingredients": ['eggs', 'sausage', 'mushrooms', 'tomatoes', 'potatoes', 'beans']
+    },
+    {
+        "name": "Syrniki",
+        "ingredients": ['eggs', 'cottage cheese', 'raisins', 'sour cream', 'jam']
     },
 ]
