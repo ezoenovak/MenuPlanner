@@ -1,3 +1,5 @@
+import json
+
 breakfasts = [
     {
         "name": "Eggs with tomatoes",
@@ -31,6 +33,14 @@ breakfasts = [
         "name": 'Cereal with milk and fruit',
         "ingredients": ['cereal', 'milk', 'fruit']
     },
+    {
+        "name": 'French toasts',
+        "ingredients": ['bread', 'milk', 'eggs']
+    },
+    {
+        "name": 'Shakshouka',
+        "ingredients": ['eggs', 'eggplant', 'tomatoes', 'bell pepper']
+    },
 ]
 
 weekend_breakfasts = [
@@ -50,4 +60,12 @@ weekend_breakfasts = [
         "name": "Syrniki",
         "ingredients": ['eggs', 'cottage cheese', 'raisins', 'sour cream', 'jam']
     },
+    {
+        "name": 'Draniki',
+        "ingredients": ['potatoes', 'eggs']
+    },
 ]
+
+# json.breakfasts = json.dumps(breakfasts)
+# print(json.breakfasts)
+# print(breakfasts)
