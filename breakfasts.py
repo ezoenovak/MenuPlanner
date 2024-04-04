@@ -41,6 +41,10 @@ breakfasts = [
         "name": 'Shakshouka',
         "ingredients": ['eggs', 'eggplant', 'tomatoes', 'bell pepper']
     },
+    {
+        "name": 'Polenta',
+        "ingredients": ['corn flour', 'milk']
+    },
 ]
 
 weekend_breakfasts = [
